@@ -1,9 +1,9 @@
 ---
+rateplan_id: 1200050
 rateplan_name: "IoT_5GB_Black_Friday"
 sim_mrc: 10
 network_access_fee: 5
 sim_activation_fee: 2
-network_access_fee: 2
 reactivation fee: 5
 cancellation_fee: 50
 pool_mrc: 30
@@ -12,13 +12,13 @@ contract_period: 48
 notice_period: 3
 start_date: "2021-11-26"
 end_date: "2031-12-30"
-call-bands: 
-	band-1:
-		band-id: '1'
-		band_name: 'National'
-	band-2: 
-		band-id: '2'
-		band_name: 'International'
+calling-groups: 
+	group-1:
+		group-id: '1'
+		group_name: 'National'
+	group-2: 
+		group-id: '2'
+		group_name: 'International'
 rating-groups:
 	set1:
 		rg_id: 'RG1'
